@@ -1,0 +1,23 @@
+{
+  "name": "radki/tempate-engine",
+  "require": {
+    "php": "^7.1",
+    "ext-mbstring": "*",
+    "webmozart/assert": "^1.9.1",
+    "squizlabs/php_codesniffer": "^3.5",
+    "vimeo/psalm": "^4.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Radki\\TemplateEngine\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Radki\\TemplateEngine\\Tests\\": "tests/"
+    }
+  }
+}
